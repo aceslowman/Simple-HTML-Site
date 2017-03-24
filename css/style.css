@@ -1,3 +1,81 @@
-.myDiv{
-  
-}
+  html {
+        box-sizing: border-box;
+        background: #ffcc600;
+    }
+    img{
+      height: 268px;
+      width: auto;
+    }
+
+    body {
+        margin: 0;
+    }
+
+    .panels {
+        min-height: 100vh;
+        overflow: hidden;
+        display: flex;
+        transition: 1s;
+    }
+
+    .panel {
+        display: flex;
+        background: #6B0F9C;
+        border: 1px solid black;
+        color: white;
+        background-size: cover;
+        background-position: center;
+        font-family: 'Raleway', sans-serif;
+        justify-content: center;
+        align-items: center;
+        flex: 1;
+        transition: 1s;
+
+
+    }
+
+
+    .labels {
+        font-size: 100px;
+        text-shadow: 1px 1px 1px black;
+        color: white;
+        font-weight: bold;
+        max-width: none;
+
+    }
+
+    .parkour {
+        background-image: url("https://images.unsplash.com/photo-1462952895297-8fd4123c3113");
+
+
+    }
+
+    .games {
+        background-image: url("https://images.unsplash.com/10/wii.jpg?dpr=1&auto=format&fit=crop&w=1500&h=1000&q=80&cs=tinysrgb&crop=");
+
+    }
+
+    .movies {
+        background-image: url("http://i.imgur.com/5H1OjaN.jpg");
+
+    }
+
+    .hide {
+      display: none;
+
+
+    }
+    .para {
+      max-width: 200px;
+      font-size: 20px;
+      text-shadow: 1px 1px 1px black;
+      margin: 2em;
+
+    }
+    .change {
+      flex:5;
+    }
+    .proper {
+      
+      background-color: rgba(0, 0, 0, 0.5);
+    }
