@@ -4,38 +4,36 @@ const pkText = document.getElementById('pkText');
 const expo = document.getElementById('expo');
 const control = document.querySelectorAll('.panel');
 
-pkPanel.addEventListener('click', function (){
-  pkPanel.classList.toggle('change');
-  video.classList.toggle('hide');
-  expo.classList.toggle('hide');
-  pkText.classList.toggle('hide');
+pkPanel.addEventListener('click', function() {
+    pkPanel.classList.toggle('change');
+    video.classList.toggle('hide');
+    expo.classList.toggle('hide');
+    pkText.classList.toggle('hide');
 });
-//Parkour Panel
+//Parkour Panel^
 
 const gamePanel = document.querySelector('#gamePanel');
 const figs = document.querySelector('#gamebox');
 const gameText = document.querySelector('#gameText')
 
-gamePanel.addEventListener('click', function () {
-  console.log('bbb');
-  gameText.classList.toggle('hide');
-  figs.classList.toggle('hide');
-  figs.classList.toggle('proper');
-  gamePanel.classList.toggle('change');
+gamePanel.addEventListener('click', function() {
+    gameText.classList.toggle('hide');
+    figs.classList.toggle('hide');
+    figs.classList.toggle('proper');
+    gamePanel.classList.toggle('change');
 });
 
-// game Panel
+// game Panel^
 
 const moviePanel = document.querySelector('#moviePanel');
 const figs2 = document.querySelector('#moviebox');
 const movieText = document.querySelector('#movieText')
 const expo2 = document.getElementById('expo2');
 
-moviePanel.addEventListener('click', function () {
-  console.log('bbb');
-  movieText.classList.toggle('hide');
-  moviePanel.classList.toggle('change');
-  figs2.classList.toggle('hide');
-  figs2.classList.toggle('proper');
+moviePanel.addEventListener('click', function() {
+    movieText.classList.toggle('hide');
+    moviePanel.classList.toggle('change');
+    figs2.classList.toggle('hide');
+    figs2.classList.toggle('proper');
 
 });
